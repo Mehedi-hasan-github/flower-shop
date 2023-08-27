@@ -1,8 +1,10 @@
 body {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
+  color: #363636;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  background-color: #ffffff;
 }
 .banner-section {
   width: 100%;
@@ -37,4 +39,42 @@ body {
 }
 .sec2 img {
   width: 84%;
+}
+
+/* ..........    Features    ........ */
+
+.features {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.features-title {
+  width: 35%;
+  margin: 0 auto;
+}
+.features-title h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.features-img {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features-img img {
+  width: 280px;
+  height: 350px;
+  border-radius: 1000px 1000px 0px 0px;
+  padding: 30px;
+  margin: 10px;
+}
+.features-img p {
+  text-decoration: underline;
+  font-size: 17px;
+  font-weight: 600;
+  color: #363636;
 }
