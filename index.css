@@ -83,6 +83,7 @@ button {
 
 /* Hot deal */
 .hot-deal {
+  box-sizing: border-box;
   display: flex;
   margin-top: 100px;
   padding: 100px;
@@ -137,6 +138,7 @@ button {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  border-radius: 3px;
   box-sizing: border-box;
 }
 .title-div {
@@ -153,15 +155,31 @@ button {
   margin-right: 30px;
 }
 
+/* user review */
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto 100px;
+  width: 80%;
+  overflow-x: scroll;
+}
+.reviews div {
+  margin: 0px 50px;
+}
+
 /* ...footer section has been close here....... */
 .footer {
-  background-color: #111010;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #111010;
   padding: 100px;
   text-align: center;
+  width: 100%;
 }
 .footer h3 {
   font-size: 30px;
